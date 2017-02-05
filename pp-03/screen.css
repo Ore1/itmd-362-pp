@@ -186,15 +186,21 @@ textarea {
 /* Using major third modular scale 4:5 */
 
 html {
-  font-size: 22.5px;
-  line-height: 28px;
+  font-size: 1.125em; /* 18px/16px */
+  line-height: 1.222em; /* 22px /18px */
+  background-color: #B0C4DE;
+  color: #222;
+  font-weight: 400;
 }
+
 h1 {
-  font-size: 35.156px;
-  line-height: 56px;
+  font-size: 1.28em; /* 23.04px/18px */
+  line-height: 1.536em; /* 27.648px @ 23.04px */
+  font-weight: bold;
 }
+
 p {
-  padding-bottom: 28px;
+  padding-bottom: 1.222em; /* 22px /18px */
 }
 
 /* Responsive Media */
@@ -212,13 +218,29 @@ input {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
-  border: 0;
-  margin: 0;
-  padding: 14px;
-  background: yellow;
+  padding: 0.77em;/*14px;*/
 }
 
 input[type="email"] {
+  border: 0.1em #2B112E;
+  border-radius: 0.6em;
+}
+
+input[type="tel"] {
+  border: 0.1em #2B112E;
+  border-radius: 0.6em;
+}
+
+input[type="date"] {
+  border: 0.1em #2B112E;
+  border-radius: 0.6em;
+}
+
+input[type="submit"] {
+  border: 0.1em #2B112E;
+  border-radius: 0.6em;
+  max-width: 50%;
+  margin-left: 5em; /*11/18*/
 }
 
 
@@ -228,15 +250,5 @@ input[type="email"] {
 /* ===== MODULAR STYLES ===== */
 
 form li {
-  margin-bottom: 28px;
-}
-
-/* ===== STATE STYLES ===== */
-.hasjs input[type="submit"] {
-  position: absolute;
-  left: -100000px;
-}
-
-.hasjs input[type="submit"].active {
-  position: static;
+  margin-bottom: 1.222em; /* 22px /18px */
 }
