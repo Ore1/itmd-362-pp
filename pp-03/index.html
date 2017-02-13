@@ -8,6 +8,7 @@
   <link rel="stylesheet" media="screen" href="//basehold.it/28" />
 </head>
 <body>
+<main class="page">
  <form method="get" action="#null">
     <h1>Production Problem 3</h1>
     <p>
@@ -15,21 +16,22 @@
     </p>
     <ol>
       <li id="input-email">
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email" placeholder="you@example.com" pattern="^.+@.+$" />
+        <label for="email">*Email</label>
+        <input type="email" name="email" id="email" placeholder="you@example.com" pattern="^.+@.+$" title="Enter a valid email address" required />
       </li>
       <li id="input-tel">
-        <label for="tel">Phone Number</label>
-        <input type="tel" name="tel" id="tel" placeholder="(xxx)-xxx-xxxx" pattern="[\(]\d{3}[\-)]\d{3}[\-]\d{4}" />
+        <label for="tel">*Phone Number</label>
+        <input type="tel" name="tel" id="tel" placeholder="xxx-xxx-xxxx" pattern="^\d{3}-\d{3}-\d{4}" title="Enter a valid phone number" required />
       </li>
       <li id="input-date">
-        <label for="date">Date of Birth</label>
-        <input type="date" name="date" id="date" placeholder="MM/DD/YYYY" pattern="\d{1,2}/\d{1,2}/\d{4}" />
+        <label for="date">*Date of Birth</label>
+        <input type="date" name="date" id="date" placeholder="mm/dd/yyyy" pattern="^\d{1,2}/\d{1,2}/\d{1,2,3,4}" required />
       </li>
       <li id="input-submit">
         <input type="submit" name="submit" id="submit" value="Submit" />
       </li>
     </ol>
   </form>
+</main>
 </body>
 </html>
