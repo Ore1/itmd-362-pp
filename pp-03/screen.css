@@ -188,7 +188,7 @@ textarea {
 html {
   font-size: 1.125em; /* 18px/16px */
   line-height: 1.222em; /* 22px /18px */
-  background-color: #B0C4DE;
+  background-color: #D2B48C; /*#B0C4DE;*/
   color: #222;
   font-weight: 400;
 }
@@ -213,7 +213,6 @@ img, audio, video {
 label,
 input {
   box-sizing: border-box;
-  width: 100%;
   display: block;
   font-family: inherit;
   font-size: inherit;
@@ -239,13 +238,15 @@ input[type="date"] {
 input[type="submit"] {
   border: 0.1em #2B112E;
   border-radius: 0.6em;
-  max-width: 50%;
   margin-left: 5em; /*11/18*/
+  background-color: #D2691E;
 }
 
 
 /* ===== LAYOUT STYLES ===== */
-
+.page {
+  padding: 1.222em; /* 22px /18px */ 
+}
 
 /* ===== MODULAR STYLES ===== */
 
