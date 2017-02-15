@@ -217,22 +217,24 @@ input {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
-  padding: 0.77em;/*14px;*/
 }
 
 input[type="email"] {
   border: 0.1em #2B112E;
   border-radius: 0.6em;
+  padding: 0.77em;/*14px;*/
 }
 
 input[type="tel"] {
   border: 0.1em #2B112E;
   border-radius: 0.6em;
+  padding: 0.77em;/*14px;*/
 }
 
 input[type="date"] {
   border: 0.1em #2B112E;
   border-radius: 0.6em;
+  padding: 0.77em;/*14px;*/
 }
 
 input[type="submit"] {
@@ -240,6 +242,7 @@ input[type="submit"] {
   border-radius: 0.6em;
   margin-left: 5em; /*11/18*/
   background-color: #D2691E;
+  padding: 0.77em;/*14px;*/
 }
 
 
@@ -248,7 +251,33 @@ input[type="submit"] {
   padding: 1.222em; /* 22px /18px */ 
 }
 
+h1 {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-weight: bold;
+  line-height: 1.45;
+  text-align: center;
+  background-color: #D2691E;
+  color: #ffffff;
+}
+
+
 /* ===== MODULAR STYLES ===== */
+/* 500px @ 16px for tablet/ipad scale */
+@media screen and (min-width: 31.25em){
+  .page {
+    width: 43.49%; /*334/768 = 0.4349*/
+    margin-left: 17%;
+  }
+}
+
+/* 1224px @ 16px for desktop/laptop scale */
+@media screen and (min-width: 76.5em) {
+  .page {
+    width: 52.19%; /*400.8/768 = 0.5219*/
+    margin-left: 35%;
+  }
+}
 
 form li {
   margin-bottom: 1.222em; /* 22px /18px */
