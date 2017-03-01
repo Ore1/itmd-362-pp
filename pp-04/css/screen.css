@@ -251,4 +251,6 @@ p {
 /* ===== MODULAR STYLES ===== */
 
 /* ===== STATE STYLES ======= */
-
+h1.wf-active {
+  font-family: 'Open Sans', sans-serif;
+}
