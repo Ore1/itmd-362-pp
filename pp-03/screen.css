@@ -261,8 +261,12 @@ h1 {
   color: #ffffff;
 }
 
-
 /* ===== MODULAR STYLES ===== */
+form li {
+  margin-bottom: 1.222em; /* 22px /18px */
+}
+
+/* ===== STATE STYLES ===== */
 /* 500px @ 16px for tablet/ipad scale */
 @media screen and (min-width: 31.25em){
   .page {
@@ -279,6 +283,3 @@ h1 {
   }
 }
 
-form li {
-  margin-bottom: 1.222em; /* 22px /18px */
-}
