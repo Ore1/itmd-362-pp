@@ -195,14 +195,58 @@ html {
   font-size: 1.375em; /* 22px */
   line-height: 1.182em; /* 26px / ~ 120% */
   padding: 1.182em; /* 26px / ~ 120% */
+  background-color: #FFFFFF;
+  font-family: Optima,Segoe,'Segoe UI',Candara,Calibri,Arial,sans-serif; 
   text-rendering: optimizeLegibility;
 }
 
-label {
+h1 {
+  font-size: 1.18em; /* 26px */
+  line-height: 2em; /* 52px / ~ 120% */
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-weight: 500;
+  /*padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  background-color: #999999;*/
+}
+
+label, input {
+  box-sizing: border-box;
   display: block;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  height: 1.182em;
+}
+
+input[type="checkbox"],
+input[type="checkbox"] + label {
+  display: inline;
+}
+
+p {
+  padding-bottom: 1.182em; /*2.36em; /* 52px */
+  padding-left: 0;
+}
+
+/*.form {
+  padding: 1.182em;
+  background-color: #DCDCDC;
+  border-radius: 0.3em;
 }
 
 /* ===== LAYOUT STYLES ====== */
+#input-age-verification {
+  height: 3.5em;
+  padding: 1.182em; /* 26px */
+  padding-left: 0;
+}
+
+/*input[type="submit"] {
+  background-color: #999999;
+  border-radius: 0.3em;
+}
 
 /* ===== MODULAR STYLES ===== */
 
