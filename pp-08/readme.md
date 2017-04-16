@@ -12,14 +12,16 @@ A. Photograph of the object (place in the pp-09/ directory and commit).
 
 B. Emotional design levels of your object:
 
-* Visceral:
+The object I chose is my backpack
 
-* Behavioral:
+* Visceral: The bag is physically attractive because it has many pretty colors (blue, pruple, green & black). 
 
-* Reflective:
+* Behavioral: I like the bag because it has many compartments of various sizes. It is very useful for me depending on the kinds of things I fit into it. It fits my laptop, umbrella and other personal and school effects I need.
+
+* Reflective: It is durable because I have been using it for about 3 years now. It doesn't get dirty easily because of the colors and people always ask this question: "Is it new?"
 
 C.  Emotional design qualities of the object that might be useful for Project 2 MyIIT redesign:
 
-1.
-2.
-3.
+1. Attractiveness is very important in design because it is what attracts a user to a particular website most times.
+2. Project 2 MyIIT redesign needs to be simple to use and easy to navigate for the user's experience.  
+3. It needs to satisfy the user's needs (example: registering for classes, view schedule etc.)
